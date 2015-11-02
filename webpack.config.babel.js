@@ -2,7 +2,7 @@ import webpack from 'webpack';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
-const DEV_PORT = 8089;
+const DEV_PORT = 8085;
 const isProduction = process.env.NODE_ENV === 'production';
 const devOrigin = `http://localhost:${DEV_PORT}/`;
 const PublicPath = isProduction ? 'https://s3.amazonaws.com/react-starter.com/' : devOrigin;
