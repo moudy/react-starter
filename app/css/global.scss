@@ -1,0 +1,21 @@
+@import './variables';
+
+html {
+  box-sizing: border-box;
+  font-size: $font-size-root;
+  tap-highlight-color: rgba(0,0,0,0);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $color-text;
+}
+
+textarea:focus, input:focus {
+  outline: 0;
+}
